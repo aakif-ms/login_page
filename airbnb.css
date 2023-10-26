@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Tilt+Neon&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    border-bottom: 1px solid #dddddd;
+    background-color: white;
+}
+
+nav .first {
+    color: #ff385c;
+    margin-left: 110px;
+    display: flex;
+    align-items: center;
+}
+
+nav .first a {
+    font-family: 'Tilt Neon', sans-serif;
+    color: #ff385c;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav .first i {
+    font-size: 40px;
+    font-weight: 200;
+}
+
+nav .second {
+    display: flex;
+    border: 1px solid #dddddd;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+nav .second button {
+    padding: 10px;
+    border: none;
+    width: 100%;
+    font-weight: 500;
+}
+
+header .filter button {
+    border: 1px solid grey;
+    border-radius: 10px;
+    background: none;
+    padding: 8px 15px 8px 15px;
+}
+
+nav .second button:nth-child(2) {
+    border-left: 1px solid rgb(200, 200, 200);
+    border-right: 1px solid rgb(200, 200, 200);
+    border-radius: 0;
+}
+
+nav .second button:nth-child(3) {
+    color: #717171;
+    font-weight: 100;
+}
+
+nav .second i {
+    position: inherit;
+    padding-top: 14px;
+    color: #ff385c;
+}
+
+nav .third {
+    font-weight: 500;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 80px;
+    margin-right: 40px;
+}
+
+nav .third button:nth-of-type(2) {
+    border-radius: 20px;
+    color: grey;    
+    background-color: white;
+    border: 1px solid #dddddd;
+    padding: 10px;
+}
+
+nav .third #bars {
+    padding-right: 20px;
+    color: black;
+}
+
+#gap {
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+.navbar.nav2 {
+    display: flex;
+    background-color: white;
+    padding: 0 83px;
+}
+
+.navbar.nav2 .icons div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-top:5px ;
+}
+
+.navbar.nav2 .icons div span {
+    font-size: 0.8rem;
+}
+
+header .icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .filter button .fa-filter {
+    padding-right: 5px;
+}
+
+header .filter .otherBtn {
+    margin-left: 5px;
+    border: 1px solid grey;
+    background: none;
+    border-radius: 10px;
+    padding: 8px 15px 8px 15px;
+}
+
+header .filter .otherBtn label {
+    padding-right: 5px;
+}
+
+.mainContent {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.mainContent .firstRow .cards .text a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.mainContent .firstRow .cards img {
+    width: 305px;
+    height: 321px;
+    border-radius: 15px;
+}
+
+.mainContent .firstRow .cards i {
+    position: absolute;
+    margin-right: 30px;
+}
+
+.mainContent .firstRow .cards h5 {
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.mainContent .firstRow .cards .details {
+    color: grey;
+    font-size: 13px;
+}
+
+.mainContentTwo .secondRow .cards .details {
+    color: grey;
+    font-size: 13px;
+}
+
+
+.mainContentTwo {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.mainContentTwo .secondRow .cards img {
+    width: 305px;
+    height: 321px;
+    border-radius: 15px;
+}
+
+.mainContentTwo .secondRow .cards h5 {
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
